@@ -1,0 +1,11 @@
+{
+        "scope": "text.tex.latex",
+
+        "completions":
+        [
+                {"trigger": "lcb", "contents": "\\left\\{${1}\\right\\}${2}"},
+                {"trigger": "lp", "contents": "\\left(${1}\\right)${2}"},
+                {"trigger": "lsb", "contents": "\\left[${1}\\right]${2}"},
+                {"trigger": "abs", "contents": "\\left|${1}\\right|${2}"}
+        ]
+}
